@@ -7,7 +7,7 @@ variable "create" {
 variable "platform" {
   description = "Identifies if the OS platform is `bottlerocket`, `linux`, or `windows` based"
   type        = string
-  default     = "linux"
+  default     = "linux" 
 }
 
 variable "enable_bootstrap_user_data" {
