@@ -14,7 +14,7 @@ locals {
       bootstrap_extra_args      = var.bootstrap_extra_args
       pre_bootstrap_user_data   = var.pre_bootstrap_user_data
       post_bootstrap_user_data  = var.post_bootstrap_user_data
-    }
+    }  
   )) : ""
   platform = {
     bottlerocket = {
