@@ -80,7 +80,7 @@ module "eks" {
       description                = "Nodes on ephemeral ports"
       protocol                   = "tcp"
       from_port                  = 1025
-      to_port                    = 65535
+      to_port                    = 65535 
       type                       = "ingress"
       source_node_security_group = true
     }
